@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
 
-const Nav = () => {
+const Nav = (props) => {
     return(
         <div className="nav">
-            <Link to="/">
-                <h1>Jeapordy</h1>
+            <Link to="/score">
+                <h1>Score/navbar</h1>
             </Link>
 
             <Link to="/categories">
-                <h1>Categories</h1>
+                <h1>Category/navbar</h1>
             </Link>
         </div>
     )

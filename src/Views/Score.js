@@ -1,6 +1,6 @@
 
 
-const Score = () => {
+const Score = (props) => {
     return(
         <div>
             <h1>Score Page</h1>
